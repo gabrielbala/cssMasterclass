@@ -1,0 +1,74 @@
+body
+{background: #da1a08;
+}
+.container {
+    background: black;
+width: 500px;
+height: 500px;
+position: relative;
+}
+
+.square1 {
+    background: blue;
+position: absolute;
+width: 50px;
+height: 50px;
+left: 70px;
+top: 50px;
+}
+.rectangle {
+    position: absolute;
+    background: pink;
+    height: 250px;
+    width: 50px;
+    left: 180px;
+    top: 100px;
+}
+.rectangle3{
+    position: absolute;
+    background: purple;
+    height: 100px;
+    width: 50px;
+    left: 180px;
+    top: 150px;
+z-index: 1}
+.square2 {
+    position: absolute;
+    top: 350px;
+    height: 50px;
+    width: 50px;
+    background: green;
+    bottom: 90px;
+    left: 100px;
+}
+.square3 {
+    position: absolute;
+    background: red;
+    height: 50px;
+    width: 50px;
+    top: 120px;
+    right: 140px;
+}
+.square4 {position: absolute;
+    background: blueviolet;
+    height: 50px;
+    width: 50px;
+    top: 280px;
+    right: 80px;}
+.rectangle2{
+    position: absolute;
+    background: pink;
+    height: 50px;
+    width: 250px;
+    right: 40px;
+    bottom: 20px;}
+.rectangle4{
+    position: absolute;
+    background: white;
+    height: 50px;
+    width: 100px;
+    right: 90px;
+    bottom: 20px;
+    z-index: 1}
+
+
